@@ -1,0 +1,1 @@
+# pratikum-6_jumratul-nisah_0110225048
