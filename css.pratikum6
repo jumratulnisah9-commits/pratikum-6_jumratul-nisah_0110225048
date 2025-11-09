@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: aqua;
+    height: 20vh;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+}
+
+artical {
+    flex-grow: 1;
+    order: 1;
+}
+
+nav {
+    width: 20vh;
+    background-color: blue;
+    order: 3;
+}
+
+
+aside {
+    width: 20vh;
+    background-color: brown;
+    order: 2;
+}
