@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background: #ffffff;
+}
+
+/* Flex container */
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: auto;
+}
+
+/* NAV kiri (tinggi penuh) */
+nav {
+    width: 20%;
+    background: #f7c6d0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+    width: 80%;
+    background: #f2e69b;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* ARTICLE */
+article {
+    width: 60%;
+    background: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+}
+
+/* ASIDE */
+aside {
+    width: 20%;
+    background: #7ff3ff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* FOOTER penuh */
+footer {
+    width: 80%;
+    background: #f2e69b;
+    padding: 20px;
+    box-sizing: border-box;
+}
